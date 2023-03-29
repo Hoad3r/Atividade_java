@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Main {
+public class Questão03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o seu nome e sobrenome");
@@ -8,7 +7,7 @@ public class Main {
         String [] dividindo_nome = nomeesobrenome.split(" ");
         String nome = dividindo_nome[0];
         String sobrenome = dividindo_nome[1];
-        
+
 
         if(nome.equals("bruce") || nome.equals("Bruce")){
             if(sobrenome.equals("wayne")|| sobrenome.equals("Wayne")){
@@ -24,6 +23,7 @@ public class Main {
         } else{
             System.out.println("Cai fora");
         }
+
 
     }
 }
